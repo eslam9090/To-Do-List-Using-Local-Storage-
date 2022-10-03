@@ -1,0 +1,43 @@
+.container{
+    background-color: rgb(206, 200, 200);
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    height: 150px;
+}
+input{
+    padding: 10px 0px;
+    width: 90%;
+    margin: 10px 0px;
+    border: none;
+    font-size: 15px;
+}
+input:focus{
+    outline: none;
+}
+.spans span {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.spans{
+    display: flex;
+    justify-content: space-around; 
+}
+.result-span{
+    background-color: white;
+    padding: 10px 0px;
+    width: 90%;
+    margin: 10px auto;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.result-span span span {
+    color:red;
+    font-size: 20px;
+}
